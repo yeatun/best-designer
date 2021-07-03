@@ -35,8 +35,8 @@ const Navbar = () => {
         <Link to='/portfolio' className='p-4'>
          Portfolio
         </Link>
-        <Link to='/about' className='p-4'>
-         <button class=" md:w-auto px-4 py-2 text-right bg-blue-900 hover:bg-blue-500 text-white md:rounded">Hire Me</button>
+        <Link to='/about' className='p-4'style={{color:'#9255cb'}} >
+         <button class=" md:w-auto px-4 py-2 text-right bg-white hover:bg-blue-500 md:rounded">Hire Me</button>
         </Link>
        
       </div>
